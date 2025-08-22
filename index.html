@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>tea house</title>
+    <link rel="stylesheet" href="./styles/style.css" />
 
     <!--tailwind Cdn-->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
@@ -17,7 +18,7 @@
       referrerpolicy="no-referrer"
     />
   </head>
-  <body>
+  <body class="manrope_font">
     <!-- banner section starts here -->
     <div
       class="parent_div flex flex-col md:flex-row justify-between items-center min-h-[200px] max-w-[1300px] mx-auto"
@@ -158,7 +159,7 @@
     >
       <!-- left div -->
       <div
-        class="left_div h-full md:w-1/2 text-white flex justify-center items-center"
+        class="left_div h-full md:w-1/2 text-white flex justify-center items-center bg-[url(./images/bg_cup.png)] bg-no-repeat bg-bottom"
       >
         <div>
           <h1 class="text-5xl font-bold">
@@ -166,10 +167,10 @@
             Clients
           </h1>
           <p class="mt-8 mb-5">
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected
-            humour, or randomized words which don't look even slightly
-            believable.
+            There are many variations of passages of Lorem Ipsum <br />
+            available, but the majority have suffered alteration in some <br />
+            form, by injected humour, or randomized words which don't <br />
+            look even slightly believable.
           </p>
           <button
             class="w-[139px] h-[56px] bg-white text-xl font-bold text-[#ff8938] rounded-lg"
@@ -182,7 +183,7 @@
       <div class="right_div h-full md:w-1/2 relative">
         <!-- card-1 -->
         <div
-          class="cumtomer_review h-[210px] w-[70vw] md:w-[70%] bg-white p-10 rounded-lg absolute top-[27%] left-[5%] z-10"
+          class="cumtomer_review h-[210px] w-[70vw] md:w-[70%] bg-white p-10 rounded-lg absolute top-[29%] left-[1%] z-10"
         >
           <p>
             We are providing the best and suitable home insurance services for
@@ -204,7 +205,7 @@
 
         <!-- card-2 -->
         <div
-          class="cumtomer_review h-[210px] w-[70vw] md:w-[70%] border-2 border-yellow-500 bg-white p-10 rounded-lg absolute top-[5%] left-[30%] opacity-20"
+          class="cumtomer_review h-[210px] w-[70vw] md:w-[70%] border-2 border-yellow-500 bg-white p-10 rounded-lg absolute top-[8%] left-[20%] opacity-20"
         >
           <p>
             We are providing the best and suitable home insurance services for
@@ -222,7 +223,7 @@
 
         <!-- card-3 -->
         <div
-          class="cumtomer_review h-[210px] w-[70vw] md:w-[70%] border-2 border-yellow-500 bg-white p-10 rounded-lg absolute top-[50%] left-[30%] opacity-20"
+          class="cumtomer_review h-[210px] w-[70vw] md:w-[70%] border-2 border-yellow-500 bg-white p-10 rounded-lg absolute top-[55%] left-[20%] opacity-20"
         >
           <p>
             We are providing the best and suitable home insurance services for
@@ -237,6 +238,74 @@
             <img src="./images/client.png" alt="" />
           </div>
         </div>
+      </div>
+    </div>
+
+    <!-- footer section starts here -->
+    <div class="bg-[#ffefe9] py-[50px] mt-[100px]">
+      <div class="footer_parent mt-[100px] max-w-[1300px] mx-auto">
+        <div class="flex justify-between items-center">
+          <img src="./images/cup.png" alt="" />
+          <div class="flex items-center">
+            <p class="mr-5">Ready to get strated?</p>
+            <button
+              class="bg-gradient-to-r from-[#ff8938] to-[#ff0000] rounded-lg text-white p-3 font-bold"
+            >
+              Get Started
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="flex flex-col items-center text-center md:text-left md:flex-row justify-between mt-[50px]"
+        >
+          <div class="">
+            <p class="font-semibold text-lg">Quick Links</p>
+            <p class="mt-2">Home</p>
+            <p class="mt-2">About Us</p>
+            <p class="mt-2">Insurance</p>
+            <p class="mt-2">Privacy Policy</p>
+          </div>
+
+          <div class="">
+            <p class="font-semibold text-lg">Our Service</p>
+            <p class="mt-2">Life Insurance</p>
+            <p class="mt-2">Car Insurance</p>
+            <p class="mt-2">Health Insurance</p>
+            <p class="mt-2">House Insurance</p>
+          </div>
+
+          <div class="">
+            <p class="font-semibold text-lg">Help</p>
+            <p class="mt-2">FAQs</p>
+            <p class="mt-2">Contact Us</p>
+          </div>
+
+          <div class="">
+            <p class="font-semibold text-xl">
+              Subscribe to our <br />
+              newsletter
+            </p>
+            <input
+              type="text"
+              placeholder="Email address"
+              class="border-b-1 outline-none pb-2 mt-5"
+            />
+            <button
+              class="bg-gradient-to-r from-[#ff8938] to-[#ff0000] h-[30px] w-[30px] rounded-full text-white"
+            >
+              <i class="fa-solid fa-angle-right"></i>
+            </button>
+            <div class="mt-5">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-square-instagram"></i>
+            </div>
+          </div>
+        </div>
+        <p class="text-center mt-[50px]">
+          © 2027 UIDesign.to - All rights reserved.
+        </p>
       </div>
     </div>
   </body>
